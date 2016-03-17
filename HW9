@@ -1,0 +1,6 @@
+	public static void findMedian(int[] n){
+		if(n.length % 2 == 0)
+			System.out.println("Median is: " + n[(int) Math.floor((n.length-1)/2)] + " and " + n[(int) (Math.floor((n.length-1)/2)) + 1]);
+		else
+			System.out.println("Median is: " + n[(n.length-1)/2]);
+	}
