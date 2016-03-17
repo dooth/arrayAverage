@@ -1,0 +1,10 @@
+public static void findMean(int[] n){
+		int total = 0;
+		
+		for(int x = 0; x < n.length; x++){
+			total += n[x];
+		}
+		
+		System.out.println("The Mean is: " + (total / n.length));
+		
+	}
