@@ -1,0 +1,8 @@
+	public static void main(String[] args) {
+		int[] array = {1,6,2,3,7,1,2,6,3,5,3,4};
+		
+		findMedian(array);
+		findMode(array);
+		findMean(array);
+
+	}
