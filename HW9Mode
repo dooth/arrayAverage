@@ -1,0 +1,19 @@
+	public static void findMode(int[] n){
+		int[] n2 = new int[n.length];
+		int max = 0;
+		for(int x = 0; x < n.length; x++){
+			for(int y = 0; y < n.length; y++){
+				if (n[y] == n[x]){
+					n2[y]++;
+				}
+			}
+		}
+		
+		for(int x = 0; x < n2.length; x++){
+			if (max < n2[x]){
+				max = n[x];
+			}
+		}
+		
+		System.out.println("The mode is: " + max);
+	}
